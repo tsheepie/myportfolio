@@ -1,0 +1,46 @@
+.footer {
+  background-color: #eed1d8;
+  padding: 4rem 0 2rem;
+  color: rgb(246, 15, 131);
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid rgba(105, 22, 56, 0.1);
+}
+
+.footer-info h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-info p {
+  color: rgb(246, 15, 131);
+  font-size: 0.9rem;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 60px;
+  border-radius: 40px}
