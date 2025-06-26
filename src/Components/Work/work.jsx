@@ -2,6 +2,10 @@ import { useState } from 'react';
 import '../Work/work.css';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import recipe from '../../Assets/recipe.jpg';
+import car from '../../Assets/car-rental.jpg';
+import port from '../../Assets/portfolio-pic.jpg';
+import hack from '../../Assets/hackerthon.jpg';
+import lecture from '../../Assets/lecture-student.jpg'
 
 function Work() {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -12,7 +16,7 @@ function Work() {
       id: 1,
       title: "Recipe Finder Website",
       description: "An interactive recipe platform where users can search through a database of recipes, view detailed preparation steps, and print recipes for offline use. Features a responsive design and intuitive search functionality.",
-      image: {recipe}, 
+      image: recipe, 
       category: "javascript",
       technologies: ["JavaScript", "HTML", "CSS", "API Integration"],
       githubLink: "https://github.com/tsheepie/Recipe-Website",
@@ -21,7 +25,7 @@ function Work() {
       id: 2,
       title: "Lecture-Student System",
       description: "A comprehensive academic management system built with Python that allows separate login portals for students and lecturers. Students can view course materials and grades, while lecturers can manage classes, assignments, and student records.",
-      image: "/api/placeholder/600/350", 
+      image: lecture, 
       category: "python",
       technologies: ["Python", "PyCharm", "Database Management", "UI Design"],
       githubLink: "https://github.com/tsheepie/Lecture-Student-System",
@@ -30,7 +34,7 @@ function Work() {
       id: 3,
       title: "Car Rental Advertisement Prototype",
       description: "A visually engaging single-page prototype for a car rental service with interactive elements. Features hover effects on the navigation bar and sleek design elements that showcase UI/UX capabilities.",
-      image: "/api/placeholder/600/350", 
+      image: car, 
       category: "design",
       technologies: ["HTML", "CSS", "JavaScript", "UI/UX Design"],
       githubLink: "https://github.com/tsheepie/car-rental-ad-prototype",
@@ -39,7 +43,7 @@ function Work() {
       id: 4,
       title: "Portfolio Website",
       description: "My personal portfolio website showcasing my skills, projects, and professional background. Built with React and featuring responsive design for optimal viewing across all devices.",
-      image: "/api/placeholder/600/350",
+      image: port,
       category: "react",
       technologies: ["React", "CSS", "Responsive Design"],
       githubLink: "https://github.com/tsheepie/portfolio",
@@ -48,7 +52,7 @@ function Work() {
       id: 5,
       title: "Hackathon Project",
       description: "Took part in a hackerthon known as 'Hack The Waste' for Frost Plus. To demonstrate the ability to deliver innovative solutions under tight deadlines in a collaborative environment.",
-      image: "",
+      image: hack,
       category: "achievement",
       technologies: ["Team Collaboration", "Rapid Development", "Problem Solving"],
     }
